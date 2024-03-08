@@ -1,9 +1,9 @@
 .vfrc-widget--chat {
-    width: 600px;
+    width: 98%;
 }
 .vfrc-system-response--list .vfrc-message--chat {
-  max-width: 460px;
-  width: 400px;
+  max-width: 100%;
+  width: 98%;
 }
 
 /* use this file to override default styles when forking this repository */
