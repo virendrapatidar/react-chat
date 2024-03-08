@@ -1,130 +1,49 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.vfrc-widget {
+
+  position: relative !important;
+  width: 100%;
+  height: 100%;
+  inset: initial;
+
+}
+
+.vfrc-widget--launcher {
+
+  display: none !important;
+
+}
+
 .vfrc-widget--chat {
-    width: 98%;
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  border: none !important;
+  max-width: none !important;
+  max-height: none !important;
 }
-.vfrc-system-response--list .vfrc-message--chat {
-  max-width: 100%;
-  width: 98%;
+
+.vfrc-header--button {
+
+  display: none !important;
+
 }
 
-/* use this file to override default styles when forking this repository */
+.vfrc-footer {
 
-/*
-  PAGE CONTENTS
+  border-top: 2px solid var(--shadows-shadow4);
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
 
-  Customize the page that the chat bubble lives on
-*/
-
-/* .voiceflow-chat {} */
-
-/* .vfrc-launcher {} */
-
-/* .vfrc-chat--overlay {} */
-
-/* .vfrc-prompt {} */
-
-
-/*
-  CHAT WIDGET HEADER
-
-  Customize the content, controls and styling included in your chat widget header, including the Assistant Information.
-  Note that changes to the assistant information here will be shared across other elements that consume this styling.
-*/
-
-/* .vfrc-header {} */
-
-/* .vfrc-assistant-info {} */
-
-/* .vfrc-assistant-info--title {} */
-
-/* .vfrc-assistant-info--description {} */
-
-/* .vfrc-avatar {} */
-
-/* .vfrc-icon {} */
-
-
-/*
-  CHAT MESSAGE BODY
-
-  Customize the layout and display of the chat body, and the conversation's metadata
-*/
-
-/* .vfrc-chat {} */
-
-/* .vfrc-chat--dialog {} */
-
-/* .vfrc-chat--spacer {} */
-
-/* .vfrc-chat--session-time {} */
-
-/* .vfrc-chat--status {} */
-
-/* .vfrc-message {} */
-
-/* .vfrc-timestamp {} */
-
-
-/*
-  ASSISTANT RESPONSES
-
-  Customize the style and layout of assistant response messages.
-*/
-
-/* .vfrc-system-response--indicator {} */
-
-/* .vfrc-system-response {} */
-
-/* .vfrc-system-response--controls {} */
-
-/* .vfrc-system-response--list {} */
-
-/* .vfrc-system-response--actions {} */
-
-/* .vfrc-button {} */
-
-/* .vfrc-image {} */
-
-/* .vfrc-image--background {} */
-
-/* .vfrc-card--content {} */
-
-/* .vfrc-card--header {} */
-
-/* .vfrc-card--description {} */
-
-/* .vfrc-carousel {} */
-
-/* .vfrc-carousel--button {} */
-
-/* Targeted styling for just the Assistant messages. */
-/* .vfrc-system-response .vfrc-message {} */
-
-/* Targeted styling for just the Assistant buttons. */
-/* .vfrc-system-response .vfrc-button {} */
-
-
-/*
-  USER RESPONSES
-
-  Customize the style and layout of users response messages.
-*/
-
-/* .vfrc-user-response {} */
-
-/* Targeted styling for just the User messages */
-/* .vfrc-user-response .vfrc-message {} */
-
-
-/*
-  FOOTER
-
-  Customize the layout and appearance of the message input field and the VF Branding
-*/
-
-/* .vf-footer {} */
-
-/* .vfrc-input {} */
-
-/* .vfrc-chat-input--button {} */
-
-/* .vfrc-footer--watermark {} */
+}
